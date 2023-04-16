@@ -1,12 +1,5 @@
 const movies = [
-  {
-    title: 'hfghfhmption',
-    year: 1994,
-    director: 'Frank Darabont',
-    duration: '2h',
-    genre: ['Crime', 'Drama'],
-    score: 9.3
-  },
+
   {
     title: 'The Shawshank Redemption',
     year: 1994,

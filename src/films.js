@@ -90,7 +90,6 @@ function moviesAverageByCategory(movies, categoria) {
 function hoursToMinutes(movies) {
   let result = [];
   result = movies.map(movie => ({ ...movie, durationMin: movie.duration }))
-  console.log(result);
   result.forEach(function(mov) {
     let arrayAux = [];
     if (mov.durationMin.length < 3) {
@@ -99,7 +98,6 @@ function hoursToMinutes(movies) {
     }
     if (mov.durationMin.length > 2) {
       arrayAux = mov.durationMin.split("h");
-      console.log(arrayAux[0] + " " + arrayAux[1]);
       if (arrayAux[0].length > 2) {
         arrayAux[1] = arrayAux[0];
         arrayAux[0] = 0;
